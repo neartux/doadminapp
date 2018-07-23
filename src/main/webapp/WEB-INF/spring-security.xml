@@ -15,7 +15,7 @@
         <intercept-url pattern="/css/**" access="permitAll" />
         <intercept-url pattern="/bootstrap/**" access="permitAll" />
         <intercept-url pattern="/**" access="hasRole('generico')"/>
-        <form-login login-page="/login.jsp" default-target-url="/patient/display" always-use-default-target="true" authentication-failure-url="/login.jsp"/>
+        <form-login login-page="/login.jsp" default-target-url="/company/display" always-use-default-target="true" authentication-failure-url="/login.jsp"/>
         <logout logout-success-url="/index.jsp"/>
     </http>
 
